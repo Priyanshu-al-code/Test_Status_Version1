@@ -1,5 +1,5 @@
 
-# TestStatusMapper
+# TestStatusMapper - Version 1
 
 **TestStatusMapper** is a Java-based tool designed to parse a JSON file (extracted from `testdata.js`) and map the corresponding test statuses to a CSV file. It is particularly useful for updating test statuses in a CSV file based on the data provided in a JavaScript file containing test results.
 
