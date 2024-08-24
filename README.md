@@ -18,10 +18,10 @@
 
 1. **Clone the repository**:
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/TestStatusMapper.git
    cd TestStatusMapper
-   \`\`\`
+   ```
 
 2. **Replace Hardcoded Paths**:
    After cloning the repository, replace the hardcoded paths for the JSON and CSV files in the \`TestStatusMapper.java\` file with your actual file paths.
@@ -29,18 +29,18 @@
    - Open \`src/main/java/com/example/TestStatusMapper.java\`.
    - Locate the following lines:
 
-     \`\`\`java
+     ```java
      String jsFilePath = "C:\\Users\\PRINAUTS\\Desktop\\GandalfReport\\Test_Status_v1\\src\\main\\java\\resources\\testdata.js";
      String csvFilePath = "C:\\Users\\PRINAUTS\\Desktop\\GandalfReport\\Test_Status_v1\\src\\main\\java\\resources\\Status16.csv";
-     \`\`\`
+     ```
 
    - Replace these paths with the actual paths to your \`testdata.js\` and \`Status16.csv\` files on your system.
 
 3. **Install Dependencies**:
 
-   \`\`\`bash
+   ```bash
    mvn clean install
-   \`\`\`
+   ```
 
 ## Usage
 
